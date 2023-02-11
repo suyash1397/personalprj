@@ -11,7 +11,7 @@ function Cards({ sname, imgsrc, title, links }) {
             <div className="card_info">
                 <span className="card__category">{title}</span>
                 <h3 className="card_title">{sname}</h3>
-                <a href={links} target="_blank">
+                <a href={links}>
                     <button>Watch Now</button>
                 </a>
             </div>
